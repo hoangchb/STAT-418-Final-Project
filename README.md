@@ -12,7 +12,7 @@ This interactive web application predicts headset prices based on product featur
 - **Deployment:** Flask API and Streamlit app hosted on Google Cloud Run and Streamlit Cloud
 
 ### Folders
-- **/Project Proposal** - Contains the initial project proposal slides and earlier attempts at data collection (these are no longer used in the final version)
+- **/Project Proposal** - Contains the initial project proposal slides and earlier attempts at data collection (these are no longer used in the app)
 - **/app** - Contains all the necessary files to deploy the streamlit app, including the Streamlit frontend and Flask API connection code
 - **/data-retrieval-cleaning** - Includes notebooks for data retrieval and cleaning, exploratory data analysis, and the original headset data collected using the PCPartPicker API
 ---
