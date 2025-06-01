@@ -43,4 +43,9 @@ This interactive web application predicts headset prices based on product featur
     `
 
     - This should print `Predicted Price: $179.93`
-
+3. You can also change the input values in the above curl command to get different predictions 
+   - `brand_encoded`: 1 to 29
+   - `min_freq`: 3 to 300
+   - `max_freq`: 2000 to 55000 (increments of 1000)
+   - `is_wireless`: 0 or 1
+   - `form_factor`: 0 or 1
