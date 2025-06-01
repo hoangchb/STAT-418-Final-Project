@@ -42,5 +42,5 @@ This interactive web application predicts headset prices based on product featur
       -d '{"brand_encoded": 15, "min_freq": 20, "max_freq": 20000, "is_wireless": 1, "form_factor": 0}'
     `
 
-    - This should print **"$179.93**
+    - This should print **"Predicted Price: $179.93**
 
