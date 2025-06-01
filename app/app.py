@@ -79,7 +79,7 @@ if st.button("Predict Price"):
     }
 
     try:
-        response = requests.post("http://localhost:5001/predict_price", json=input_data)
+        response = requests.post("https://headset-prediction-app-378985735322.us-central1.run.app/predict_price", json=input_data)
         response.raise_for_status()  
 
         result = response.json()
