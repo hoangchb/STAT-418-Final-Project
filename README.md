@@ -6,13 +6,13 @@
 This interactive web application predicts headset prices based on product features using a Random Forest Regression model. The data was collected from [PCPartPicker](https://pcpartpicker.com/) using this [PCPartPicker API](https://github.com/JonathanVusich/pcpartpicker/blob/master/README.md). The app connects to a deployed Flask API that contains the trained model.
 - **Data Collection:** Web scraping headset data using from https://pcpartpicker.com/ using an API 
 - **Modeling:** Built a Random Forest regression model (RMSE ≈ **60.51**) to predict headset price
-    -    ⚠️ Note: RMSE of 60.51 suggests room for model improvement. For demo purposes, the current model is used.
+    - Note: RMSE of 60.51 suggests room for model improvement. For demo purposes, the current model is used.
 - **App:** Streamlit web interface for selecting headset features and viewing predicted prices + recommendations
 - **Docker Image:** Containerized the Flask API and model for consistent deployment
 - **Deployment:** Flask API and Streamlit app hosted on Google Cloud Run and Streamlit Cloud
 
-### 📁 Folders
-- **/Project Proposal** - Contains the initial project proposal slides and earlier attempts at data collection (these are no longer used in teh final version)
+### Folders
+- **/Project Proposal** - Contains the initial project proposal slides and earlier attempts at data collection (these are no longer used in the final version)
 - **/app** - Contains all the necessary files to deploy the streamlit app, including the Streamlit frontend and Flask API connection code
 - **/data-retrieval-cleaning** - Includes notebooks for data retrieval and cleaning, exploratory data analysis, and the original headset data collected using the PCPartPicker API
 ---
