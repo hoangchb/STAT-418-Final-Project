@@ -45,6 +45,8 @@ We created a Flask API to serve model predictions, which communicates with Strea
 #### Docker Image/Container
 #### Google Cloud Deplyment
 #### Streamlit App
+![streamlit](https://github.com/user-attachments/assets/151b6527-6c01-4d67-9bbf-1971c341557e)
+
 
 ## Results and Discussion
 The Random Forest model achieved an RMSE of $60.51, MAE of $45.98,k and R^2 of 0.4983, indicating moderate predictive performance. On average, the model is about $46 off from the true price, which suggests it captures general pricing trends. However, there is still significant room for improvement. An example would be to add more features to increase model complexity.
