@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import requests
+import os
+
+st.write("Working directory contents:", os.listdir())
 
 st.title('Headsets Price Predictor :headphones:')
 
