@@ -18,12 +18,18 @@ The initial dataset contains 2417 headsets with the following columns: `brand`, 
 
 ### Data Cleaning/Feature Engineering for Model
 ![correlation](https://github.com/user-attachments/assets/74e2dcf3-00dd-482d-9bf6-c77e67162805)
-
+--
 ### Model
 
-### Deployment 
+### Deployment Pipeline
+1. Flask API
+2. Docker Container
+3. Google Cloud Deployment
+4. Streamlit App
+
 #### Flask API
 #### Docker Image/Container
+#### Google Cloud Deplyment
 #### Streamlit App
 
 ## Results
