@@ -38,7 +38,7 @@ This interactive web application predicts headset prices based on product featur
 ### Flask API (Google Cloud Run)
 1. Visit the url https://headset-prediction-app-378985735322.us-central1.run.app/
     - You should see the message: `server  is up - nice job!`
-2.  Run the following curl command to see the results.\
+2.  Run the following curl command in your terminal to see the results.\
     `curl -X POST https://headset-prediction-app-378985735322.us-central1.run.app/predict_price \
       -H "Content-Type: application/json" \
       -d '{"brand_encoded": 15, "min_freq": 20, "max_freq": 20000, "is_wireless": 1, "form_factor": 0}'
