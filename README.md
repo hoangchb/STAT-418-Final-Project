@@ -3,7 +3,7 @@
 🌐 [Flask API on Google Cloud Run](https://headset-prediction-app-378985735322.us-central1.run.app/)
 
 ## Project Overview
-This interactive web application predicts headset prices based on product features using a Random Forest Regression model. The data was collected from [PCPartPicker](https://pcpartpicker.com/) using this [PCPartPicker API](https://github.com/JonathanVusich/pcpartpicker/blob/master/README.md). The app connects to a deployed Flask API that contains the trained model.
+This interactive web application predicts headset prices based on product features using a Random Forest regression model. The data was collected from [PCPartPicker](https://pcpartpicker.com/) using this [PCPartPicker API](https://github.com/JonathanVusich/pcpartpicker/blob/master/README.md). The app connects to a deployed Flask API that contains the trained model.
 - **Data Collection:** Web scraping headset data using from https://pcpartpicker.com/ using an API 
 - **Modeling:** Built a Random Forest regression model (RMSE ≈ **60.51**) to predict headset price
     - Note: RMSE of 60.51 suggests room for model improvement. For demo purposes, the current model is used.
