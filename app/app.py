@@ -1,9 +1,6 @@
 import streamlit as st
 import pandas as pd
 import requests
-import os
-
-st.write("Working directory contents:", os.listdir())
 
 st.title('Headsets Price Predictor :headphones:')
 
@@ -92,7 +89,7 @@ if st.button("Predict Price"):
         st.success(f"Predicted Price: ${predicted_price:.2f}")
         st.info(f"Category: {price_category}")
 
-        model_data = pd.read_csv("model_data.csv") 
+        model_data = pd.read_csv("app/model_data.csv")
         recommendations = model_data[
             (model_data['price_usd'] >= predicted_price - 20) &
             (model_data['price_usd'] <= predicted_price + 20) &
