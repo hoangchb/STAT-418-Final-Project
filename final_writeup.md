@@ -20,7 +20,7 @@ After removing the outliers, the distribution remains right-skewed, but it's les
 Looking at the price distribution plot after these high and low extreme values were removed, it is apparent that the distribution is slightly better balanced. 
 
 ![price_distribution_brand](https://github.com/user-attachments/assets/c09a5915-97d4-4071-b577-d1a60ce818cb)
-This boxplot ocmpares the price distribution across the top 10 most common headset brands. Brands such as Final Audio Design and Sennheiser have a much wider price range and many high-value outliers compared to Koss and Skullcandy. 
+This boxplot compares the price distribution across the top 10 most common headset brands. Brands such as Final Audio Design and Sennheiser have a much wider price range and many high-value outliers compared to Koss and Skullcandy. 
 
 ## Methodology
 
