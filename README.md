@@ -1,7 +1,7 @@
 # Headset Price Prediction 🎧 
 💻 [Streamlit App](https://cb-headset-recommendations-app.streamlit.app/)\
-🌐 [Flask API on Google Cloud Run](https://headset-prediction-app-378985735322.us-central1.run.app/)
-📓 [Final Write Up](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/final_writeup.md)
+🌐 [Flask API on Google Cloud Run](https://headset-prediction-app-378985735322.us-central1.run.app/)\
+📄 [Final Write Up](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/final_writeup.md)
 
 ## Project Overview
 This interactive web application predicts headset prices based on product features using a Random Forest regression model. The data was collected from [PCPartPicker](https://pcpartpicker.com/) using this [PCPartPicker API](https://github.com/JonathanVusich/pcpartpicker/blob/master/README.md). The app connects to a deployed Flask API that contains the trained model.
