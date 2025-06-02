@@ -1,4 +1,4 @@
-# Headset Recommendations App 🎧
+# Headset Price Prediction and Recommendations App 🎧
 
 ## Background
 This project invovles web scraping headset data from [PCPartPicker](https://pcpartpicker.com) using an [API](https://github.com/JonathanVusich/pcpartpicker/blob/master/README.md), building a regression model to predict headset prices, deploying the model through a Flask API on Google Cloud to run the model, and creating an interactive web application using Streamlit. 
