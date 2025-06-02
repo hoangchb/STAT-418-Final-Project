@@ -51,19 +51,19 @@ A Random Forest regression model ([model_regression.py](https://github.com/hoang
 These predictors were selected based on exploratory analysis and their relevance to pricing. The Random Forest model was chosen for its ability to handle non-linear relationships and better performance compared to an XGBoost Regressor model. 
 
 ### Deployment Pipeline
-1. Dataset
-   [📁 app/model_data.csv](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/model_data.csv)  
-2. Model Script  
-   [📁 app/model_regression.py](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/model_regression.py)
+1. Dataset\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[📁 app/model_data.csv](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/model_data.csv)  
+2. Model Script\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[📁 app/model_regression.py](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/model_regression.py)
 3. Flask API\
-   [📁 app/server.py](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/server.py)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[📁 app/server.py](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/server.py)
 4. Docker Container\
-   [📁 app/Dockerfile](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/Dockerfile)\
-   [📁 app/docker-compose.yml](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/docker-compose.yml)\
-   [📁 app/requirements.txt](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/requirements.txt)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[📁 app/Dockerfile](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/Dockerfile)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[📁 app/docker-compose.yml](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/docker-compose.yml)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[📁 app/requirements.txt](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/requirements.txt)
 5. Google Cloud Deployment
 6. Streamlit App\
-   [📁 app/app.py](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/app.py)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[📁 app/app.py](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/app.py)
 
 #### Flask API
 The trained Random Forest model is served through a FlaskAPI defined in [`server.py`]((https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/server.py)). The API receives feature input from the frontend (Streamlit App), passes it to the model, and returns the predicted price. The command used to push the Flask API is listed under the Docker Image/Container section below.
