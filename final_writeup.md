@@ -27,7 +27,9 @@ This boxplot ocmpares the price distribution across the top 10 most common heads
 ### Data Cleaning/Feature Engineering for Model
 To prepare the data for modeling, null values and data types were examined. Rows containing null values were removed from the dataset.
 
-The binary features `has_microphone` and `is_wireless` were converted to integers (0 and 1). The categorical variables `form_factor` and `type` were label encoded. The `color` feature, which can contain multiple values, was split and transformed into separate binary columns using one-hot encoding. Brands in `brand` with fewer than 5 counts were grouped into an 'Other' category before encoding. The encoded values were saved in a new column titled `brand_encoded` for further analysis and model fit. 
+The binary features `has_microphone` and `is_wireless` were converted to integers (0 and 1).  The `frequency_response` feature was originally a string and was parsed to extract numeric features: `min_freq` and `max_freq`. The original `frequency_response` column was then dropped. 
+
+The categorical variables `form_factor` and `type` were label encoded. The `color` feature, which can contain multiple values, was split and transformed into separate binary columns using one-hot encoding. Brands in `brand` with fewer than 5 counts were grouped into an 'Other' category before encoding. The encoded values were saved in a new column titled `brand_encoded` for further analysis and model fitting. 
 
 The correlation heatmap showed all predictors had correlations below 0.5, indicating no strong linear relationships among the features.
 
@@ -50,7 +52,9 @@ These predictors were selected based on exploratory analysis and their relevance
 
 ### Deployment Pipeline
 1. Dataset
-2. Model Script
+   [📁 app/model_data.csv](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/model_data.csv)  
+2. Model Script  
+   [📁 app/model_regression.py](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/model_regression.py)
 3. Flask API\
    [📁 app/server.py](https://github.com/hoangchb/STAT-418-Final-Project/blob/main/app/server.py)
 4. Docker Container\
