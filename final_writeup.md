@@ -98,6 +98,6 @@ This website/interface was built using `app.py` to collect user inputs, send the
 
 
 ## Results and Discussion
-The Random Forest model achieved an RMSE of $60.51, MAE of $45.98,k and R^2 of 0.4983, indicating moderate predictive performance. On average, the model is about $46 off from the true price, which suggests it captures general pricing trends. However, there is still significant room for improvement. An example would be to add more features to increase model complexity.
+The Random Forest model achieved an **RMSE of $60.51**, **MAE of $45.98** and **R^2 of 0.4983**, indicating moderate predictive performance. On average, the model is about $46 off from the true price, which suggests it captures general pricing trends. However, there is still significant room for improvement. An example would be to add more features to increase model complexity.
 
 For future work, a more complete dataset could be obtained by using BeautifulSoup to scrape data directly from PCPartPicker, rather than relying on the API. This would allow gathering additional important features, such as product ratings, which could be valuable for improving price prediction.
